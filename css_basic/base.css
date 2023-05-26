@@ -77,13 +77,13 @@ aside {
 aside p {
 	border: 1px solid #bbb;
 	background: #ddd;
-	color: rgb(170, 18, 18);
+	color: black;
 }
 footer a {
-	color: rgba(184, 21, 21, 0.8);
+	color: rgba(199, 15, 15, 0.8);
 }
 a {
-	color: #13ac4e;
+	color: #F80002;
 }
 
 
@@ -150,7 +150,7 @@ aside p {
 /* Footer */
 
 footer {
-	padding: 7px 10px;
+	padding: 5px 15px;
 	height: 80px;
 }
 
@@ -171,7 +171,20 @@ h2 {
 h3 {
 	font-size: 28px;
 	margin: 25px 0 10px;
-
+}
+h4 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 0 10px;
+}
+h5 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 15px 0 10px;
+}
+h6 {
+	font-weight: bold;
+	margin: 5px 0;
 }
 
 @media (max-width: 800px) {
