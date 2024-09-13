@@ -47,4 +47,4 @@ class LFUCache(BaseCaching):
                        self.lfu[self.queue[self.queue.index(key) + 1]]):
                     self.queue.insert(self.queue.index(key) + 1,
                                       self.queue.pop(self.queue.index(key)))
-        return self.cache_data.get(key)
+        return self.cache_data.get(key) 
